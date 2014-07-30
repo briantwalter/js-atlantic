@@ -25,6 +25,14 @@ function setoutput()
   outleft.open("POST", urlleft, true);
   outleft.send();
 }
+function propstop(screw)
+{
+  //alert("DEBUG: got propstop " + screw.name);
+}
+function propgo(screw)
+{
+  //alert("DEBUG: got propgo " + screw.name );
+}
 function nothing() 
 {
   var xmlhttp = new XMLHttpRequest();
