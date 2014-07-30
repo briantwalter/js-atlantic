@@ -15,13 +15,13 @@ function setoutput()
   // set starboard side to output
   var outright = new XMLHttpRequest();
   var urlright = baseurl + "/GPIO/" + gpioright + "/function/out";
-  alert("DEBUG: starboard url is " + urlright );
+  //alert("DEBUG: starboard url is " + urlright );
   outright.open("POST", urlright, true);
   outright.send();
   // set port side to output
   var outleft = new XMLHttpRequest();
   var urlleft = baseurl + "/GPIO/" + gpioleft + "/function/out";
-  alert("DEBUG: port url is " + urlleft );
+  //alert("DEBUG: port url is " + urlleft );
   outleft.open("POST", urlleft, true);
   outleft.send();
 }
